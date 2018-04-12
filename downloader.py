@@ -2,8 +2,6 @@ import requests
 import csv 
 import os
 
-
-# os.chdir("C:/Users/Shashank/Desktop/MapTest")
 mydir = (os.path.dirname(os.path.realpath(__file__)))
 os.chdir(mydir)
 url = "<LINK TO THE PUBLISHED CSV FILE>"
